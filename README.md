@@ -1,8 +1,8 @@
-# FrontEnd
+# Ebarn FrontEnd
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
 
-## Development server
+## Iniciar o servidor
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Rode `ng serve` no console. Navegue até `http://localhost:4200/` e você verá a página rodando
 
