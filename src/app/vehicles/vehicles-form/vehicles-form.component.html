@@ -1,0 +1,21 @@
+<form class="row g-3 needs-validation" novalidate [formGroup]="form">
+  <div class= "container">
+    <br>
+    <div class="col-md-4">
+      <label for="name" class="input-group-text">Insira um nome</label>
+      <input type="text" class="form-control" id="vehicleNname" placeholder="Nome do trator" formControlName="vehicleName" [ngClass]="{'is-invalid': submitted && hasError('name')}">
+      <div class="invalid-feedback">
+        Ocorreu um erro ao cadastrar. Observe o campo nome
+      </div>
+    </div>
+    <br>
+    <label for="name" class="input-group-text">Adicione uma imagem</label>
+    <div class="input-group mb-3">
+      <input type="file" class="form-control" id="customFile" (change)="onChange($event)">
+    </div>
+    <div style="margin-top: 10px">
+      <button type="submit" class="btn btn-primary" (click)="onSubmit()">Salvar</button>
+    </div>
+</div>
+
+</form>
